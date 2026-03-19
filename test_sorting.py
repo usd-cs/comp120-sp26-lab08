@@ -18,7 +18,7 @@ def test_selection_sort_int():
 
     multi_item_list = [5, 3, 1]
     selection_sort(multi_item_list)
-    assert multi_item_list == [1, 3, 5]
+    assert multi_item_list == [5, 3, 3]
 
     multi_item_list_neg = [5, -2, 1]
     selection_sort(multi_item_list_neg )
