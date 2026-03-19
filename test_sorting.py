@@ -1,3 +1,9 @@
+"""
+Module: test_sorting
+
+Test cases for various sorting algorithms, implemented with pytest.
+"""
+
 from sorting import selection_sort, insertion_sort
 
 def test_selection_sort_int():
